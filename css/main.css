@@ -1,0 +1,374 @@
+
+/* Start setnings */
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("http://pattern4site.ru/images/crystal/_rebig/2-fon-svetlyy-kristaly.png"); /*#c8cbd1;*/
+	font-family: Thoma, sans-serif;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+/* Header Setigs*/
+
+header{
+	display: flex;
+}
+.logo{
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+.logopng{
+	width: 200px;
+	height: 200px;
+	padding: 30px;
+	margin-left: 10px
+}
+.text-logo{
+	font-size: 52px;
+	padding: 0 30px 30px 30px;
+	margin-top: 100px;
+	display: inline-block;
+}
+.phone{
+	margin-right: 10px;
+	font-size: 32px;
+	padding: 55px;
+}
+.phone p{
+	width: 400px;
+}
+.phone p i{
+	padding: 10px;
+}
+/* Navigation setings */
+nav{
+	width: 100%;
+	height: 58px;
+	background: gray;
+}
+nav ul{
+	display: flex;
+	max-width: 1920px;
+	height: 100%;
+	margin-top: 0px;
+	margin-left: 300px;
+	text-align: center;
+ 	/*border: 1px solid black;*/
+
+}
+nav ul li{
+	padding: 20px 90px 20px 90px;
+}
+nav ul a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	background: gray;
+}
+nav ul a:hover{
+	background: #0b4e88;
+	transition: 1s;
+}
+
+/* Main setings */
+
+main{
+	padding: 30px;
+}
+.wrapper{
+	display: flex;
+}
+.gallery{
+	width: 100%;
+	height: 100%;	
+}
+.gallery-discripton{
+	width: 100%;
+	height: 100%;
+}
+.gallery-discripton ul{
+	padding-left: 5px;
+}
+.gallery-discripton ul li{
+	background: url(../img/icon.png) 0px no-repeat;
+	font-size: 25px;
+	padding-left: 25px;
+	margin-top: 10px;
+}
+.gallery img{
+	padding: 23px;
+	padding-top: 10px;
+}
+.home-discription h1{
+	font-size: 44px;
+}
+.dsc-html h1{
+	font-size: 44px;
+}
+
+/* About setings */
+
+.about{
+	width: 50%;
+	padding: 30px;
+}
+.about h1{
+	font-size: 40px;
+}
+.info{
+	padding: 100px 0px 100px 0px;
+}
+.about-discription{
+	padding: 30px;
+}
+.educations{
+	padding: 30px;
+}
+.educations p{
+	font-size: 30px;
+}
+.works{
+	padding: 30px;
+	margin-left: 300px;
+}
+.works p{
+	font-size: 30px;
+}
+
+/* Contact setings */
+
+.contact{
+	padding: 30px;
+	height: 400px;
+}
+.contact p{
+	font-size: 20px;
+}
+.contact h1{
+	font-size: 50px;
+}
+.map{
+	padding: 30px;
+	margin-left: 300px;
+}
+.social{
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.social a{
+	display: inline;
+	color: black;
+	padding: 20px;
+}
+.social a:hover{
+	background: #0b4e88;
+}
+.red{
+	color: red;
+	font-size: 32px;
+}
+.tsocial{
+	font-size: 28px;
+}
+
+/* Адаптив */
+
+@media (max-width: 460px){
+	header{
+		flex-direction: column;
+	}
+	.logo{
+		flex-direction: column;
+		height: 100%;
+	}
+	.text-logo{
+		text-align: center;
+		font-size: 30px;
+		display: block;
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-bottom: 0px;
+	}
+	.logopng{
+		width: 150px;
+		height: 150px;
+		margin-left: 120px;
+	}
+	.phone{
+		display: none;
+	}
+	nav{
+		height: 170px;
+	}
+	nav ul{
+		flex-direction: column;
+		margin-left: 0px;
+		padding: 0px;
+	}
+	nav ul li{
+		padding: 20px 50px 20px 50px;
+	}
+	.wrapper{
+		display: block;
+		flex-direction: column;
+	}
+	main{
+		padding: 50px;
+	}
+	.gallery img{
+		width: 100%;
+		padding: 0px;
+		padding-top: 0px;
+	}
+	.gallery-discripton h2{
+		text-align: center;
+	}
+	.gallery-discripton ul li{
+		font-size: 12px;	
+	}
+	iframe{
+		display: none;
+	}
+	.tsocial{
+		font-size: 12px;
+	}.red{
+		color: red;
+		font-size: 22px;
+	}
+}
+@media (max-width: 360px){
+	header{
+		flex-direction: column;
+	}
+	.logo{
+		flex-direction: column;
+		height: 100%;
+	}
+	.text-logo{
+		text-align: center;
+		font-size: 30px;
+		display: block;
+		margin-top: 20px;
+		margin-left: 10px;
+		margin-bottom: 0px;
+	}
+	.logopng{
+		width: 150px;
+		height: 150px;
+		margin-left: 45px;
+	}
+	.phone{
+		display: none;
+	}
+	nav{
+		height: 170px;
+	}
+	nav ul{
+		flex-direction: column;
+		margin-left: 0px;
+		padding: 0px;
+	}
+	nav ul li{
+		padding: 20px 50px 20px 50px;
+	}
+	.wrapper{
+		display: block;
+		flex-direction: column;
+	}
+	main{
+		padding: 50px;
+	}
+	.gallery img{
+		width: 100%;
+		padding: 0px;
+		padding-top: 0px;
+	}
+	.gallery-discripton h2{
+		text-align: center;
+	}
+	.gallery-discripton ul li{
+		font-size: 12px;	
+	}
+	iframe{
+		display: none;
+	}
+	.tsocial{
+		font-size: 12px;
+	}.red{
+		color: red;
+		font-size: 22px;
+	}
+}
+@media (max-width: 375px){
+	header{
+		flex-direction: column;
+	}
+	.logo{
+		flex-direction: column;
+		height: 100%;
+	}
+	.text-logo{
+		text-align: center;
+		font-size: 30px;
+		display: block;
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-bottom: 0px;
+	}
+	.logopng{
+		width: 150px;
+		height: 150px;
+		margin-left: 80px;
+	}
+	.phone{
+		display: none;
+	}
+	nav{
+		height: 170px;
+	}
+	nav ul{
+		flex-direction: column;
+		margin-left: 0px;
+		padding: 0px;
+	}
+	nav ul li{
+		padding: 20px 50px 20px 50px;
+	}
+	.wrapper{
+		display: block;
+		flex-direction: column;
+	}
+	main{
+		padding: 50px;
+	}
+	.gallery img{
+		width: 100%;
+		padding: 0px;
+		padding-top: 0px;
+	}
+	.gallery-discripton h2{
+		text-align: center;
+	}
+	.gallery-discripton ul li{
+		font-size: 12px;	
+	}
+	iframe{
+		display: none;
+	}
+	.tsocial{
+		font-size: 12px;
+	}.red{
+		color: red;
+		font-size: 22px;
+	}
+}
