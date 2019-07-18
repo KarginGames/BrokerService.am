@@ -372,3 +372,66 @@ main{
 		font-size: 22px;
 	}
 }
+@media (max-width: 325px){
+	header{
+		flex-direction: column;
+	}
+	.logo{
+		flex-direction: column;
+		height: 100%;
+	}
+	.text-logo{
+		text-align: center;
+		font-size: 30px;
+		display: block;
+		margin-top: 20px;
+		margin-left: 10px;
+		margin-bottom: 0px;
+	}
+	.logopng{
+		width: 150px;
+		height: 150px;
+		margin-left: 60px;
+	}
+	.phone{
+		display: none;
+	}
+	nav{
+		height: 170px;
+	}
+	nav ul{
+		flex-direction: column;
+		margin-left: 0px;
+		padding: 0px;
+	}
+	nav ul li{
+		padding: 20px 50px 20px 50px;
+	}
+	.wrapper{
+		display: block;
+		flex-direction: column;
+	}
+	main{
+		padding: 50px;
+	}
+	.gallery img{
+		width: 100%;
+		padding: 0px;
+		padding-top: 0px;
+	}
+	.gallery-discripton h2{
+		text-align: center;
+	}
+	.gallery-discripton ul li{
+		font-size: 12px;	
+	}
+	iframe{
+		display: none;
+	}
+	.tsocial{
+		font-size: 12px;
+	}.red{
+		color: red;
+		font-size: 22px;
+	}
+}
